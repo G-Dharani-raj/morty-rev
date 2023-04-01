@@ -1,0 +1,36 @@
+.main_body {
+	position: relative;
+}
+.status_box {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: gray;
+	padding: 10px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main_body img {
+	width: 100%;
+}
+
+.Alive {
+	color: rgb(10, 240, 10);
+}
+.Dead {
+	color: red;
+}
+.unknown {
+	color: yellow;
+}
+
+.char_name {
+	background-color: grey;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
